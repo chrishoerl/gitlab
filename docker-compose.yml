@@ -5,7 +5,7 @@ services:
 ############## GITLAB-CE ############
 
   gitlab:
-    image: gitlab/gitlab-ce:12.5.0-ce.0
+    image: gitlab/gitlab-ce:12.7.2-ce.0
     restart: always
     container_name: gitlab
     hostname: 'git.example.com'
